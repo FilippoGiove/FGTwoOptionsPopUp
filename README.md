@@ -1,6 +1,12 @@
 # FGTwoOptionsPopUp (iOS)
 Custom popup with two possible choices. It handle its position respect an "anchor view".
 
+![Screenshot1](https://github.com/FilippoGiove/FGTwoOptionsPopUp/blob/master/FGTwoOptionsPopUp/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-05-29%20at%2019.35.25.png)
+
+
+![Screenshot2](https://github.com/FilippoGiove/FGTwoOptionsPopUp/blob/master/FGTwoOptionsPopUp/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%207%20-%202018-05-29%20at%2019.35.30.png)
+
+
 
 ## Getting Started
 
