@@ -16,8 +16,7 @@
 		EEAFE2D220BDC1220013A8D0 /* FGTwoOptionsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2CF20BDC1210013A8D0 /* FGTwoOptionsConstants.swift */; };
 		EEAFE2D320BDC1220013A8D0 /* FGTwoOptionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2D020BDC1220013A8D0 /* FGTwoOptionsButton.swift */; };
 		EEAFE2D520BDC1770013A8D0 /* FGBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2D420BDC1760013A8D0 /* FGBezierPath.swift */; };
-		EEAFE2DD20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2DB20BDC83E0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png */; };
-		EEAFE2DE20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2DC20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png */; };
+		EEAFE2E120BDCA8D0013A8D0 /* example.gif in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2E020BDCA8D0013A8D0 /* example.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +31,7 @@
 		EEAFE2CF20BDC1210013A8D0 /* FGTwoOptionsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGTwoOptionsConstants.swift; sourceTree = "<group>"; };
 		EEAFE2D020BDC1220013A8D0 /* FGTwoOptionsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGTwoOptionsButton.swift; sourceTree = "<group>"; };
 		EEAFE2D420BDC1760013A8D0 /* FGBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGBezierPath.swift; sourceTree = "<group>"; };
-		EEAFE2DB20BDC83E0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png"; sourceTree = "<group>"; };
-		EEAFE2DC20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png"; sourceTree = "<group>"; };
+		EEAFE2E020BDCA8D0013A8D0 /* example.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = example.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +64,7 @@
 		EEAFE2BA20BDC0D60013A8D0 /* FGTwoOptionsPopUp */ = {
 			isa = PBXGroup;
 			children = (
-				EEAFE2D620BDC6490013A8D0 /* Screenshots */,
+				EEAFE2DF20BDCA830013A8D0 /* GifExample */,
 				EEAFE2CD20BDC1040013A8D0 /* Library */,
 				EEAFE2BB20BDC0D60013A8D0 /* AppDelegate.swift */,
 				EEAFE2BD20BDC0D60013A8D0 /* ViewController.swift */,
@@ -89,13 +87,12 @@
 			path = Library;
 			sourceTree = "<group>";
 		};
-		EEAFE2D620BDC6490013A8D0 /* Screenshots */ = {
+		EEAFE2DF20BDCA830013A8D0 /* GifExample */ = {
 			isa = PBXGroup;
 			children = (
-				EEAFE2DC20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png */,
-				EEAFE2DB20BDC83E0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png */,
+				EEAFE2E020BDCA8D0013A8D0 /* example.gif */,
 			);
-			path = Screenshots;
+			path = GifExample;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,10 +154,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEAFE2C620BDC0D70013A8D0 /* LaunchScreen.storyboard in Resources */,
-				EEAFE2DD20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png in Resources */,
 				EEAFE2C320BDC0D70013A8D0 /* Assets.xcassets in Resources */,
-				EEAFE2DE20BDC83F0013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png in Resources */,
 				EEAFE2C120BDC0D60013A8D0 /* Main.storyboard in Resources */,
+				EEAFE2E120BDCA8D0013A8D0 /* example.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
