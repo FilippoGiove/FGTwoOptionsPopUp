@@ -1,4 +1,4 @@
-# FGTwoOptionsPopUp
+# FGTwoOptionsPopUp (iOS)
 Custom popup with two possible choices. It handle its position respect an "anchor view".
 
 
