@@ -12,6 +12,12 @@
 		EEAFE2C120BDC0D60013A8D0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2BF20BDC0D60013A8D0 /* Main.storyboard */; };
 		EEAFE2C320BDC0D70013A8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2C220BDC0D70013A8D0 /* Assets.xcassets */; };
 		EEAFE2C620BDC0D70013A8D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2C420BDC0D70013A8D0 /* LaunchScreen.storyboard */; };
+		EEAFE2D120BDC1220013A8D0 /* FGTwoOptionsPopUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2CE20BDC1210013A8D0 /* FGTwoOptionsPopUp.swift */; };
+		EEAFE2D220BDC1220013A8D0 /* FGTwoOptionsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2CF20BDC1210013A8D0 /* FGTwoOptionsConstants.swift */; };
+		EEAFE2D320BDC1220013A8D0 /* FGTwoOptionsButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2D020BDC1220013A8D0 /* FGTwoOptionsButton.swift */; };
+		EEAFE2D520BDC1770013A8D0 /* FGBezierPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEAFE2D420BDC1760013A8D0 /* FGBezierPath.swift */; };
+		EEAFE2D920BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2D720BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png */; };
+		EEAFE2DA20BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png in Resources */ = {isa = PBXBuildFile; fileRef = EEAFE2D820BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		EEAFE2C220BDC0D70013A8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEAFE2C520BDC0D70013A8D0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEAFE2C720BDC0D70013A8D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEAFE2CE20BDC1210013A8D0 /* FGTwoOptionsPopUp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGTwoOptionsPopUp.swift; sourceTree = "<group>"; };
+		EEAFE2CF20BDC1210013A8D0 /* FGTwoOptionsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGTwoOptionsConstants.swift; sourceTree = "<group>"; };
+		EEAFE2D020BDC1220013A8D0 /* FGTwoOptionsButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGTwoOptionsButton.swift; sourceTree = "<group>"; };
+		EEAFE2D420BDC1760013A8D0 /* FGBezierPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FGBezierPath.swift; sourceTree = "<group>"; };
+		EEAFE2D720BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png"; sourceTree = "<group>"; };
+		EEAFE2D820BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,8 @@
 		EEAFE2BA20BDC0D60013A8D0 /* FGTwoOptionsPopUp */ = {
 			isa = PBXGroup;
 			children = (
+				EEAFE2D620BDC6490013A8D0 /* Screenshots */,
+				EEAFE2CD20BDC1040013A8D0 /* Library */,
 				EEAFE2BB20BDC0D60013A8D0 /* AppDelegate.swift */,
 				EEAFE2BD20BDC0D60013A8D0 /* ViewController.swift */,
 				EEAFE2BF20BDC0D60013A8D0 /* Main.storyboard */,
@@ -62,6 +76,26 @@
 				EEAFE2C720BDC0D70013A8D0 /* Info.plist */,
 			);
 			path = FGTwoOptionsPopUp;
+			sourceTree = "<group>";
+		};
+		EEAFE2CD20BDC1040013A8D0 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EEAFE2D420BDC1760013A8D0 /* FGBezierPath.swift */,
+				EEAFE2D020BDC1220013A8D0 /* FGTwoOptionsButton.swift */,
+				EEAFE2CF20BDC1210013A8D0 /* FGTwoOptionsConstants.swift */,
+				EEAFE2CE20BDC1210013A8D0 /* FGTwoOptionsPopUp.swift */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EEAFE2D620BDC6490013A8D0 /* Screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				EEAFE2D820BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png */,
+				EEAFE2D720BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png */,
+			);
+			path = Screenshots;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEAFE2C620BDC0D70013A8D0 /* LaunchScreen.storyboard in Resources */,
+				EEAFE2D920BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.30.png in Resources */,
 				EEAFE2C320BDC0D70013A8D0 /* Assets.xcassets in Resources */,
+				EEAFE2DA20BDC6F70013A8D0 /* Simulator Screen Shot - iPhone 7 - 2018-05-29 at 19.35.25.png in Resources */,
 				EEAFE2C120BDC0D60013A8D0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,7 +172,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEAFE2BE20BDC0D60013A8D0 /* ViewController.swift in Sources */,
+				EEAFE2D320BDC1220013A8D0 /* FGTwoOptionsButton.swift in Sources */,
 				EEAFE2BC20BDC0D60013A8D0 /* AppDelegate.swift in Sources */,
+				EEAFE2D220BDC1220013A8D0 /* FGTwoOptionsConstants.swift in Sources */,
+				EEAFE2D520BDC1770013A8D0 /* FGBezierPath.swift in Sources */,
+				EEAFE2D120BDC1220013A8D0 /* FGTwoOptionsPopUp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

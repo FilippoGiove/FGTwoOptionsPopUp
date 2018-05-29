@@ -1,24 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
-        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
-        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
-    </dependencies>
-    <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
-            <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
-            </objects>
-        </scene>
-    </scenes>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<device id="retina4_7" orientation="portrait">
+<adaptation id="fullscreen"/>
+</device>
+<dependencies>
+<deployment identifier="iOS"/>
+<plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+<capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+<capability name="Safe area layout guides" minToolsVersion="9.0"/>
+<capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+</dependencies>
+<scenes>
+<!--View Controller-->
+<scene sceneID="tne-QT-ifu">
+<objects>
+<viewController id="BYZ-38-t0r" customClass="ViewController" customModule="FGBezierPopup" customModuleProvider="target" sceneMemberID="viewController">
+<view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+<rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+<autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+<subviews>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QfU-0t-BVM">
+<rect key="frame" x="37.5" y="30" width="300" height="42"/>
+<color key="backgroundColor" red="0.016804177310000001" green="0.19835099580000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<constraints>
+<constraint firstAttribute="height" constant="42" id="g8J-tw-jS9"/>
+</constraints>
+<state key="normal" title="Two options popup"/>
+<connections>
+<action selector="clickOnTwoOptionsButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRj-zi-OEh"/>
+</connections>
+</button>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Io-ij-T5Z">
+<rect key="frame" x="37" y="615" width="300" height="42"/>
+<color key="backgroundColor" red="0.99215686270000003" green="0.57647058819999997" blue="0.14901960780000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<constraints>
+<constraint firstAttribute="height" constant="42" id="1tR-4E-QEF"/>
+<constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="LQ7-XN-Fw0"/>
+</constraints>
+<state key="normal" title="Two options popup"/>
+<connections>
+<action selector="clickOnTwoOptionsButtonBottom:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iYx-O5-5Qy"/>
+</connections>
+</button>
+<button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0J0-7p-NiO">
+<rect key="frame" x="37" y="322" width="300" height="42"/>
+<color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+<constraints>
+<constraint firstAttribute="height" relation="greaterThanOrEqual" constant="42" id="ioK-V1-bnC"/>
+<constraint firstAttribute="height" constant="42" id="qkr-fx-XKv"/>
+</constraints>
+<state key="normal" title="Two options popup"/>
+<connections>
+<action selector="clickOnTwoOptionsButtonMiddle:" destination="BYZ-38-t0r" eventType="touchUpInside" id="j6m-iu-5ht"/>
+</connections>
+</button>
+</subviews>
+<color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+<constraints>
+<constraint firstItem="0J0-7p-NiO" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="4q1-fo-Vag"/>
+<constraint firstItem="7Io-ij-T5Z" firstAttribute="width" secondItem="0J0-7p-NiO" secondAttribute="width" id="6Pe-oG-IB7"/>
+<constraint firstItem="0J0-7p-NiO" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="6h7-Ua-n20"/>
+<constraint firstItem="QfU-0t-BVM" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="10" id="Jqa-nQ-qhE"/>
+<constraint firstItem="QfU-0t-BVM" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.8" id="Mr2-7c-N7m"/>
+<constraint firstItem="QfU-0t-BVM" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gcY-kO-kCB"/>
+<constraint firstItem="0J0-7p-NiO" firstAttribute="width" secondItem="QfU-0t-BVM" secondAttribute="width" id="hBD-2j-rbT"/>
+<constraint firstItem="7Io-ij-T5Z" firstAttribute="centerX" secondItem="0J0-7p-NiO" secondAttribute="centerX" id="mcu-QG-NfI"/>
+<constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="7Io-ij-T5Z" secondAttribute="bottom" constant="10" id="pg4-n1-0I0"/>
+</constraints>
+<viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+</view>
+<connections>
+<outlet property="twoOptionButtonBottom" destination="7Io-ij-T5Z" id="sgL-8a-rxC"/>
+<outlet property="twoOptionButtonMiddle" destination="0J0-7p-NiO" id="ytc-9H-mxK"/>
+<outlet property="twoOptionsButton" destination="QfU-0t-BVM" id="yN2-Yd-mNd"/>
+</connections>
+</viewController>
+<placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+</objects>
+<point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
+</scene>
+</scenes>
 </document>
