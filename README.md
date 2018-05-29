@@ -11,11 +11,22 @@ These instructions will get you a copy of the project up and running on your loc
 
 Just copy all the swift classes in the Library Group in your project.
 
+## Example
 
+```
+self.twoOptionPopUp = FGTwoOptionsPopUp(anchorView: self.twoOptionsButton)
+            self.twoOptionPopUp.getLeftButton().setTitle("LEFT", for: UIControlState())
+            self.twoOptionPopUp.getRightButton().setTitle("RIGHT", for: UIControlState())
+            self.twoOptionPopUp.getLeftButton().addTarget(self, action: #selector(self.openORClose_UP), for:.touchUpInside)
+            self.twoOptionPopUp.getRightButton().addTarget(self, action: #selector(self.openORClose_UP), for:.touchUpInside)
+            self.view.addSubview(self.twoOptionPopUp)
+            //IMPORTANT! Put this after adding popup to superview
+            self.twoOptionPopUp.addAllConstraints()```
+```
 
 ## Authors
 
-* **Filippo Giove** - [FilippoGiove](https://github.com/FilippoGiove)
+[Filippo Giove](https://github.com/FilippoGiove)
 
 
 ## License
