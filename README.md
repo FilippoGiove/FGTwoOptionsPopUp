@@ -24,7 +24,7 @@ self.twoOptionPopUp.getLeftButton().addTarget(self, action: #selector(self.doSom
 self.twoOptionPopUp.getRightButton().addTarget(self, action: #selector(self.doSomethingWithAfterRightButtonClick), for:.touchUpInside)
 self.view.addSubview(self.twoOptionPopUp)
 //IMPORTANT! Put this line after have added the popup to its superview
-self.twoOptionPopUp.addAllConstraints()```
+self.twoOptionPopUp.addAllConstraints()
 ```
 
 ## Authors
